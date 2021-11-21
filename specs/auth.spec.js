@@ -6,7 +6,7 @@ describe('Auth', function() {
         await $('[qa-id="email"]')
             .setValue('mamasita@gmai.com');
         await $('[qa-id="password"]')
-            .setValue('Qwerty!23');
+            .setValue('MaMaSita123');
         await expect($('.login-form-button'))
             .toBeEnabled();
         await $('.login-form-button')
